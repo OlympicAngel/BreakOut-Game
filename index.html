@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakOu game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: black;
+        }
+
+        canvas {
+            width: -webkit-fill-available;
+            aspect-ratio: 16/9;
+            background-color: rgb(23, 23, 23);
+            position: absolute;
+            inset: 0;
+            margin: auto;
+        }
+    </style>
+    <script src="./CanvasItem.js"></script>
+    <script src="./CanvasBrick.js"></script>
+    <script src="./CanvasBall.js"></script>
+    <script src="./CanvasPaddle.js"></script>
+</head>
+
+<body>
+    <canvas id="game" onclick="startGame()" width="1280" height="720"></canvas>
+    <script src="./script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
